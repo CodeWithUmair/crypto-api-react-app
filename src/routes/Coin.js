@@ -15,7 +15,7 @@ const Coin = () => {
       .catch((err) => {
         console.log(err);
       });
-  });
+  }, []);
 
   return <></>;
 };
