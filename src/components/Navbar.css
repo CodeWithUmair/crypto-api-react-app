@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 1.5rem;
+  color: #ff9f1a;
+}
+.span-color {
+  color: #ff9f1a;
+}
