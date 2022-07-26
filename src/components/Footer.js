@@ -8,27 +8,11 @@ const Footer = () => {
         <span>
           Powered by &nbsp;
           <a
-            href="https://www.freecodecamp.org/codewithumair"
+            href="https://twitter.com/Muhamma19512164"
             target="_blank"
             rel="noreferrer"
           >
-            Umair&nbsp;
-          </a>
-          | <span class="far fa-copyright"></span> 2022 All rights reserved.
-        </span>
-        <span>
-          <a
-            href="https://github.com/CodeWithUmair"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="./github.png"
-              alt="github"
-              width="36px"
-              height="36px"
-              class="footer-links"
-            />
+            Umair
           </a>
         </span>
       </footer>

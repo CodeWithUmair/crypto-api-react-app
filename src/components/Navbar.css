@@ -18,7 +18,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: rgb(0, 68, 255);
+  color: #55efc4;
   text-decoration: none;
 }
 footer span a:hover {
@@ -26,5 +26,5 @@ footer span a:hover {
 }
 
 footer span img.footer-links {
-  margin: 0.5rem 0.5rem -0.2rem 0.5rem;
+  margin: 0 0.5rem;
 }
