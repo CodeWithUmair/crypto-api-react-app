@@ -10,3 +10,21 @@
 .span-color {
   color: #ff9f1a;
 }
+/* footer section styling */
+footer {
+  background: #2d3436;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: rgb(0, 68, 255);
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
+
+footer span img.footer-links {
+  margin: 0.5rem 0.5rem -0.2rem 0.5rem;
+}
