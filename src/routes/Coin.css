@@ -12,7 +12,9 @@
 .rank {
   margin: 0.5 0;
 }
-
+.about p {
+  text-align: justify;
+}
 .rank-btn {
   border: 1px solid #4cd137;
   box-shadow: 0px 0px 8px #4cd137;
