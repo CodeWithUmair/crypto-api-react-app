@@ -5,6 +5,7 @@ import Coins from "./components/Coins";
 import Coin from "./routes/Coin";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { moment } from "moment.js";
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -27,6 +28,7 @@ function App() {
   return (
     <>
       <Navbar />
+      {moment().format("MMMM Do YYYY, h:mm:ss a")}
       <Routes>
         <Route path="/" element={<Coins coins={coins} />} />
         <Route path="/coin" element={<Coin />}>
