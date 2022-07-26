@@ -34,6 +34,8 @@
   transform: scale(1.04);
   transition: 0.3s ease-in-out;
   cursor: pointer;
+  color: aqua;
+  background-color: #b2bec3;
 }
 
 img {
