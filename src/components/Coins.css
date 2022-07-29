@@ -38,6 +38,11 @@
   background-color: #dcdde1;
 }
 
+h5 {
+  margin-left: 1rem;
+  color: #ff9f1a;
+}
+
 img {
   height: 40px;
   margin-right: 7px;

@@ -1,5 +1,7 @@
 import React from "react";
 import CoinItem from "./CoinItem";
+import moment from "moment";
+
 import { Link } from "react-router-dom";
 import "./Coins.css";
 import Coin from "./../routes/Coin";
@@ -8,6 +10,7 @@ const Coins = (props) => {
   return (
     <>
       <div className="container">
+        <h5>{moment().format("MMMM Do YYYY, h:mm:ss a")}</h5>
         <div>
           <div className="heading">
             <p>#</p>
