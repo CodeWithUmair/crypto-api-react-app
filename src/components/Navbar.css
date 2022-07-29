@@ -3,13 +3,21 @@
   justify-content: center;
   align-items: center;
 }
+
 .icon {
   font-size: 1.5rem;
   color: #ff9f1a;
 }
+
 .span-color {
   color: #ff9f1a;
 }
+
+h5 {
+  margin-left: 1rem;
+  color: #ff9f1a;
+}
+
 /* footer section styling */
 footer {
   background: #2f3542;
@@ -17,10 +25,12 @@ footer {
   color: #fff;
   text-align: center;
 }
+
 footer span a {
   color: #55efc4;
   text-decoration: none;
 }
+
 footer span a:hover {
   text-decoration: underline;
 }
