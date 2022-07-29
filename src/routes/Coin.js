@@ -2,7 +2,6 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import DOMPurify from "dompurify";
-
 import "./Coin.css";
 
 const Coin = () => {
@@ -23,7 +22,7 @@ const Coin = () => {
   }, [url]);
 
   return (
-    <div>
+    <>
       <div className="coin-container">
         <div className="content">
           <h1>{coin.name}</h1>
@@ -170,7 +169,7 @@ const Coin = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
