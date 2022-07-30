@@ -10,7 +10,7 @@ const Coins = (props) => {
   return (
     <>
       <div className="container">
-        <h5>{moment().format("MMMM Do YYYY, h:mm:ss a")}</h5>
+        <h5>{moment().format("MMMM Do YYYY, h:mm a")}</h5>
         <div>
           <div className="heading">
             <p>#</p>
