@@ -60,14 +60,22 @@ const Coin = () => {
             <tbody>
               <tr>
                 <td>
-                  {coin.market_data?.price_change_percentage_1h_in_currency ? (
-                    <p>
+                  {coin.market_data?.price_change_percentage_1h_in_currency >
+                  0 ? (
+                    <p className="coin-green">
                       {coin.market_data.price_change_percentage_1h_in_currency.usd.toFixed(
                         1
                       )}
                       %
                     </p>
-                  ) : null}
+                  ) : (
+                    <p className="coin-red">
+                      {coin.market_data.price_change_percentage_1h_in_currency.usd.toFixed(
+                        1
+                      )}
+                      %
+                    </p>
+                  )}
                 </td>
                 <td>
                   {coin.market_data?.price_change_percentage_24h_in_currency ? (
