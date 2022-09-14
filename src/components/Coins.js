@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import "./Coins.css";
 import Coin from "./../routes/Coin";
 
-const Coins = (props) => {
+const Coins = ({ coins }) => {
   return (
     <>
       <div className="container">
@@ -21,7 +21,7 @@ const Coins = (props) => {
             <p className="hide-mobile">Market CAP</p>
           </div>
 
-          {props.coins.map((coins) => {
+          {coins.map((coins) => {
             return (
               <Link to={`/coin/${coins.id}`} element={<Coin />} key={coins.id}>
                 <CoinItem coins={coins} />

@@ -8,7 +8,7 @@ const Footer = () => {
         <span>
           Powered by &nbsp;
           <a
-            href="https://twitter.com/Muhamma19512164"
+            href="https://twitter.com/Muhamma50242291"
             target="_blank"
             rel="noreferrer"
           >
