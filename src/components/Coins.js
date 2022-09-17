@@ -14,6 +14,9 @@ const Coins = ({ coins }) => {
 
   useEffect(() => {
     window.addEventListener("resize", currentScreenWidth);
+    return () => {
+      window.removeEventListener("resize", currentScreenWidth);
+    };
   });
 
   return (
